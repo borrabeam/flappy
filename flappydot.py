@@ -21,7 +21,7 @@ class Dot(Sprite):
  
 class PillarPair(Sprite):
     def update(self):
-        self.vy += PILLAR_SPEED
+        self.x -= PillarPair.PILLAR_SPEED
 
 class FlappyGame(GameApp):
     def create_sprites(self):
