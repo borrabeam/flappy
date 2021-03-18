@@ -18,7 +18,10 @@ class Dot(Sprite):
         self.y += self.vy
         self.vy += GRAVITY
  
-
+class PillarPair(Sprite):
+    def update(self):
+        # your code here
+        pass
 
 class FlappyGame(GameApp):
     def create_sprites(self):
